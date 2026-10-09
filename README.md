@@ -491,32 +491,6 @@ gerenciamento-eventos/
 | Códigos HTTP corretos | ✅ 200, 201, 204, 400, 404 |
 | Swagger/OpenAPI | ✅ Springdoc 3.1.1 |
 | HATEOAS | ✅ `EntityModel`, `PagedModel` |
-
----
-
-## 🎨 Recursos Extras
-
-- 🎨 **Swagger UI customizado** com CSS próprio
-- 📦 **Dados de exemplo** carregados automaticamente (`LoadDatabase`)
-- 🔍 **Logs SQL** formatados no console (útil para debug)
-- 📝 **Tratamento global de exceções** com mensagens amigáveis
-- 📮 **Collection Postman** pronta para importar
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a **MIT License**.
-
----
-
-## 👨‍💻 Autor
-
-**Daniel Fontz**
-
-- GitHub: [@danielfontz](https://github.com/danielfontz)
-- E-mail: daniel@exemplo.com
-
 ---
 
 <p align="center">
