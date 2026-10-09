@@ -2,7 +2,7 @@ package com.danielfontz.gerenciamento_eventos.model;
 
 public enum StatusEvento {
     PLANEJADO,
-    COFIRMADO,
+    CONFIRMADO,
     EM_ANDAMENTO,
     CONCLUIDO,
     CANCELADO
