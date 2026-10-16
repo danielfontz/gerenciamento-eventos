@@ -23,7 +23,7 @@ public class OpenApiConfig {
 
         Info info = new Info()
                 .title("API de Gerenciamento de Eventos")
-                .version("1.0.0")
+                .version("1.1.0")
                 .description("""
                         ## Visão Geral
                         
@@ -45,10 +45,6 @@ public class OpenApiConfig {
                         - HATEOAS (links `self`, `update`, `delete`)
                         - Paginação (`page`, `size`, `sort`)
                         - Bean Validation
-                        
-                        ## Códigos HTTP
-                        
-                        `200 OK` · `201 Created` · `204 No Content` · `400 Bad Request` · `404 Not Found`
                         """)
                 .contact(new Contact()
                         .name("Daniel David Fuentes")
@@ -60,8 +56,8 @@ public class OpenApiConfig {
 
         List<Server> servers = List.of(
                 new Server()
-                        .url("http://localhost:8080")
-                        .description("Servidor de Desenvolvimento")
+                        .url("https://gerenciamento-eventos.onrender.com")
+                        .description("Servidor de Produção")
         );
 
         List<Tag> tags = List.of(
