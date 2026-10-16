@@ -263,14 +263,6 @@ public class InscricaoController {
                             mediaType = "text/plain",
                             examples = @ExampleObject(value = "O participante 2 já está inscrito no evento 2")
                     )
-            ),
-            @ApiResponse(
-                    responseCode = "404",
-                    description = "Evento ou participante não encontrado",
-                    content = @Content(
-                            mediaType = "text/plain",
-                            examples = @ExampleObject(value = "Não foi possível encontrar o evento com id 999")
-                    )
             )
     })
     @PostMapping
